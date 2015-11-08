@@ -8,6 +8,6 @@ electricdata<-subset(electric,Date=="1/2/2007"|Date=="2/2/2007")
 hist(electricdata$Global_active_power,col="red",main="Gloabal Active Power",xlab="Global Active Power (kilowatts)")
 
 #save the figure in a png file
-dev.dev.copy(png,file="R.png",width=480,height=480)
+dev.dev.copy(png,file="plot1.png",width=480,height=480)
 dev.off()
 
